@@ -1,17 +1,22 @@
 # AI Use Statement
 
 **Course:** CIS 4374
-**Assignment:** Homework 1 — Semester Project (ClearPark: Smart Parking Platform)
+**Assignment:** Homework 2 — Semester Project (ClearPark: Smart Parking Platform)
 
 ## Tool Used
 Claude (Anthropic AI assistant)
 
 ## How AI Was Used
 
+**Week 1:**
 - Assisted in drafting the **Competitive Analysis** section by researching existing parking-app products (ParkMobile, SpotHero, ParkWhiz, PayByPhone, Passport, SpotAngels) and summarizing their strengths, weaknesses, and market positioning.
 - Assisted in drafting the **Vision and Scope** section, including the vision statement, project acquisition narrative, in-scope/out-of-scope lists, and stakeholder table, based on the assigned project brief.
 - Assisted in drafting an initial set of **18 use cases** for the Software Requirements Specification, covering driver, operator, administrator, and system-level interactions, plus one fully expanded example use case (UC-05).
 - Helped organize the overall document structure (table of contents, version history table, formatting).
+
+**Week 2:**
+- Assisted in drafting a **Work Breakdown Structure (WBS)**, at least 3 levels deep, covering the five components specified in class (Authentication, User/Operator Setup, Garage Monitoring/Dashboards, Payment, Reporting), based on the example structure shown in class slides.
+- Assisted in drafting a **project timeline** in table form and building a **Mermaid Gantt chart** that renders natively on GitHub, based on estimated task durations across the semester.
 
 ## What Was NOT Done by AI
 
@@ -24,5 +29,4 @@ Claude (Anthropic AI assistant)
 I reviewed all AI-assisted content for accuracy and relevance before including it in the submitted project document, and I understand I am responsible for the final content of this assignment.
 
 **Name:** David Thai
-**Date:** Sep 10
-
+**Date:** 9/17

@@ -11,6 +11,7 @@
 | Version | Date | Author | Summary of Changes |
 |---------|------|--------|---------------------|
 | 0.1 | Week 1 | David Thai | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
+| 0.2 | Week 2 (Sept 17, 2026) | David Thai | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
 
 *(Update this table every week per course instructions — bump the version number and note what changed.)*
 
@@ -23,7 +24,9 @@
 3. [Software Requirements Specification (Draft)](#3-software-requirements-specification-draft)
    - 3.1 [Use Case Diagram Overview](#31-use-case-overview)
    - 3.2 [Use Cases](#32-use-cases)
-4. [References](#4-references)
+4. [Work Breakdown Structure (WBS)](#4-work-breakdown-structure-wbs)
+5. [Project Timeline & Gantt Chart](#5-project-timeline--gantt-chart)
+6. [References](#6-references)
 
 ---
 
@@ -166,7 +169,135 @@ The initial use case set below covers the core driver-facing, operator-facing, a
 
 ---
 
-## 4. References
+## 4. Work Breakdown Structure (WBS)
+
+The WBS below decomposes ClearPark into its five major components — Authentication, User/Operator Setup, Garage Monitoring (Dashboards), Payment, and Reporting — broken down at least three levels deep, per this week's assignment.
+
+### 4.1 Authentication
+
+- **1.0 Authentication**
+  - 1.1 Login
+    - 1.1.1 Design login UI
+    - 1.1.2 Implement email/password authentication
+    - 1.1.3 Implement "forgot password" flow
+  - 1.2 Registration
+    - 1.2.1 Design registration form
+    - 1.2.2 Implement driver registration
+    - 1.2.3 Implement operator registration
+  - 1.3 Session Management
+    - 1.3.1 Implement session token generation
+    - 1.3.2 Implement token refresh / auto-logout on expiration
+
+### 4.2 User / Operator Setup
+
+- **2.0 User / Operator Setup**
+  - 2.1 Driver Profile Management
+    - 2.1.1 Create/edit profile
+    - 2.1.2 Manage saved vehicle information
+  - 2.2 Operator Account Setup
+    - 2.2.1 Operator onboarding workflow
+    - 2.2.2 Role & permission assignment
+  - 2.3 Account Administration
+    - 2.3.1 Admin tools to view/edit/deactivate accounts
+
+### 4.3 Garage Monitoring (Dashboards)
+
+- **3.0 Garage Monitoring / Dashboards**
+  - 3.1 Garage Management (Add / Edit / Remove Garage)
+    - 3.1.1 Add new garage facility (location, capacity, pricing)
+    - 3.1.2 Edit garage details
+    - 3.1.3 Deactivate/remove a garage
+  - 3.2 Real-Time Occupancy Monitoring
+    - 3.2.1 Integrate occupancy data feed/sensor API
+    - 3.2.2 Build live occupancy map view
+  - 3.3 Find Parking, Select, and Pay
+    - 3.3.1 Build search/filter interface
+    - 3.3.2 Build reservation selection flow
+    - 3.3.3 Hand off to Payment checkout (see 4.0)
+
+### 4.4 Payment
+
+- **4.0 Payment**
+  - 4.1 Payment Gateway Integration
+    - 4.1.1 Select third-party payment provider
+    - 4.1.2 Implement provider API integration
+  - 4.2 Transaction Processing
+    - 4.2.1 Process reservation/on-demand payments
+    - 4.2.2 Handle refunds and cancellations
+  - 4.3 Receipts & Billing History
+    - 4.3.1 Generate digital receipts
+    - 4.3.2 Build reservation/payment history view
+
+### 4.5 Reporting
+
+- **5.0 Reporting**
+  - 5.1 Occupancy Reporting
+    - 5.1.1 Build occupancy graphs/charts
+    - 5.1.2 Historical trend analysis
+  - 5.2 Financial Reporting
+    - 5.2.1 Build revenue reports
+    - 5.2.2 Export financial reports (CSV/PDF)
+  - 5.3 Notifications & Alerts
+    - 5.3.1 Reservation/expiration alerts to drivers
+    - 5.3.2 Low-occupancy/anomaly alerts to operators
+
+---
+
+## 5. Project Timeline & Gantt Chart
+
+### 5.1 Draft Timeline (Table View)
+
+| Phase | Task | Start | Duration | End |
+|---|---|---|---|---|
+| Planning | Vision & Scope / Research | Aug 24, 2026 | 1 week | Aug 30, 2026 |
+| Planning | WBS & Scheduling (this week) | Aug 31, 2026 | 2 weeks | Sept 13, 2026 |
+| Authentication | Login & Registration | Sept 14, 2026 | 2 weeks | Sept 27, 2026 |
+| Authentication | Session Management | Sept 28, 2026 | 1 week | Oct 4, 2026 |
+| User/Operator Setup | Driver Profile Management | Oct 5, 2026 | 1 week | Oct 11, 2026 |
+| User/Operator Setup | Operator Onboarding | Oct 12, 2026 | 1 week | Oct 18, 2026 |
+| Garage Monitoring | Garage Mgmt Dashboard (add/edit/remove) | Oct 19, 2026 | 1.5 weeks | Oct 29, 2026 |
+| Garage Monitoring | Real-Time Occupancy Map | Oct 30, 2026 | 1.5 weeks | Nov 8, 2026 |
+| Garage Monitoring | Find/Select/Pay Flow | Nov 9, 2026 | 1 week | Nov 15, 2026 |
+| Payment | Payment Gateway Integration | Nov 16, 2026 | 1.5 weeks | Nov 26, 2026 |
+| Payment | Receipts & Billing History | Nov 27, 2026 | 1 week | Dec 3, 2026 |
+| Reporting | Occupancy & Financial Reporting | Dec 4, 2026 | 1 week | Dec 10, 2026 |
+| Final | Testing, QA & Final Presentation | Dec 11, 2026 | 1 week | Dec 17, 2026 |
+
+*(Dates are draft estimates for planning purposes and will be refined as the semester progresses and actual velocity is known.)*
+
+### 5.2 Gantt Chart
+
+```mermaid
+gantt
+    title ClearPark Development Timeline
+    dateFormat  YYYY-MM-DD
+    section Planning
+    Vision & Scope / Research        :done,   p1, 2026-08-24, 7d
+    WBS & Scheduling                 :active, p2, 2026-08-31, 14d
+    section Authentication
+    Login & Registration             :a1, 2026-09-14, 14d
+    Session Management               :a2, 2026-09-28, 7d
+    section User/Operator Setup
+    Driver Profile Management        :u1, 2026-10-05, 7d
+    Operator Onboarding              :u2, 2026-10-12, 7d
+    section Garage Monitoring
+    Garage Mgmt Dashboard            :g1, 2026-10-19, 11d
+    Real-Time Occupancy Map          :g2, 2026-10-30, 10d
+    Find / Select / Pay Flow         :g3, 2026-11-09, 7d
+    section Payment
+    Payment Gateway Integration      :pay1, 2026-11-16, 11d
+    Receipts & Billing History       :pay2, 2026-11-27, 7d
+    section Reporting
+    Occupancy & Financial Reporting  :r1, 2026-12-04, 7d
+    section Final
+    Testing, QA & Presentation       :milestone, f1, 2026-12-11, 7d
+```
+
+*(This chart renders automatically on GitHub. If submitting as a Word document instead, use the table in Section 5.1 or paste a screenshot of this chart rendered from a tool like Mermaid Live Editor, Excel, or MS Project.)*
+
+---
+
+## 6. References
 
 - ParkMobile — App Store listing, 2026
 - SpotHero — App Store listing, 2026
