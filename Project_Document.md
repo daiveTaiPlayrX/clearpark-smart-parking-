@@ -10,9 +10,9 @@
 
 | Version | Date | Author | Summary of Changes |
 |---------|------|--------|---------------------|
-| 0.1 | Week 1 | [Your Name] | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
-| 0.2 | Week 2 (Sept 17, 2026) | [Your Name] | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
-| 0.3 | Week 3 | [Your Name] | Added product backlog and Sprint 1 plan (Trello board + screenshot) |
+| 0.1 | Week 1 | David Thai | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
+| 0.2 | Week 2 (Sept 17, 2026) | David Thai | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
+| 0.3 | Week 3 | David Thai | Added product backlog and Sprint 1 plan (Trello board + screenshot) |
 
 *(Update this table every week per course instructions — bump the version number and note what changed.)*
 

@@ -33,5 +33,6 @@ Claude (Anthropic AI assistant)
 
 I reviewed all AI-assisted content for accuracy and relevance before including it in the submitted project document, and I understand I am responsible for the final content of this assignment.
 
-**Name:** [Your Name]
-**Date:** [Date]
+**Name:** David Thai
+**Date:** Sep 24
+
