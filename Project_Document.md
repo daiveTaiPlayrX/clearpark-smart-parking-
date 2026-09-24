@@ -10,8 +10,9 @@
 
 | Version | Date | Author | Summary of Changes |
 |---------|------|--------|---------------------|
-| 0.1 | Week 1 | David Thai | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
-| 0.2 | Week 2 (Sept 17, 2026) | David Thai | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
+| 0.1 | Week 1 | [Your Name] | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
+| 0.2 | Week 2 (Sept 17, 2026) | [Your Name] | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
+| 0.3 | Week 3 | [Your Name] | Added product backlog and Sprint 1 plan (Trello board + screenshot) |
 
 *(Update this table every week per course instructions — bump the version number and note what changed.)*
 
@@ -26,7 +27,8 @@
    - 3.2 [Use Cases](#32-use-cases)
 4. [Work Breakdown Structure (WBS)](#4-work-breakdown-structure-wbs)
 5. [Project Timeline & Gantt Chart](#5-project-timeline--gantt-chart)
-6. [References](#6-references)
+6. [Product Backlog & Sprint 1 Plan](#6-product-backlog--sprint-1-plan)
+7. [References](#7-references)
 
 ---
 
@@ -297,7 +299,46 @@ gantt
 
 ---
 
-## 6. References
+## 6. Product Backlog & Sprint 1 Plan
+
+### 6.1 Tool Used
+
+The product backlog was created and managed in **Trello**, organized as a board named "ClearPark Backlog" with lists mirroring the four required categories, plus a dedicated Sprint 1 list.
+
+### 6.2 Backlog Summary
+
+| List | Item Count | Minimum Required | Status |
+|---|---|---|---|
+| Login | 6 | 5 | ✅ Met |
+| UI (Operator & User) | 16 | 15 | ✅ Met |
+| Backend Processes | 16 | 15 | ✅ Met |
+| Reporting | 11 | 10 | ✅ Met |
+| **Sprint 1** | 14 | — | Planned |
+
+### 6.3 Sprint 1 Backlog
+
+Sprint 1 focuses on the core MVP loop — account access through a basic search-and-reserve flow — pulled from the Login and core driver-facing UI/backend items:
+
+- Register with email/password
+- Log in with credentials
+- Reset forgotten password
+- Operator login role for admin dashboard access
+- Auto-expiring sessions for security
+- Map view showing nearby parking availability
+- Garage detail screen before reserving
+- Reservation confirmation screen
+- Payment/checkout screen
+- Process registration and store profile
+
+### 6.4 Board Screenshot
+
+![ClearPark Trello Backlog Board](Trello_Backlog_Screenshot.png)
+
+*Figure 1: ClearPark Backlog board in Trello, showing the Login, UI (Operator & User), Backend Processes, Reporting, and Sprint 1 lists.*
+
+---
+
+## 7. References
 
 - ParkMobile — App Store listing, 2026
 - SpotHero — App Store listing, 2026
