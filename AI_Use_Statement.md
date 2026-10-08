@@ -23,6 +23,17 @@ Claude (Anthropic AI assistant)
 - Assisted in scoping a proposed **Sprint 1 backlog** focused on a demoable MVP loop.
 - The student manually created the Trello board, added the drafted items as cards, and captured the screenshot themselves.
 
+**Week 4:**
+- Assisted in identifying and drafting **17 project risks** across technical, schedule, financial, and people categories (at least four per category) and building the **Risk Register** with probability/impact scoring, response strategies, mitigation and contingency plans, and fictional owners.
+- Assisted in drafting the **Communication Plan** (meeting cadence per team, reporting methods, channels, and escalation path).
+- The student is responsible for reviewing and adjusting the risks, scores, and cadence to fit the project.
+
+**Week 5:**
+- Assisted in drafting the **Roles & Resources** table (fictional names, skill levels, allocation percentages, and hourly rate assumptions).
+- Assisted in building a **bottom-up Resource & Cost Plan** and **monthly budgeted cashflow**; cost totals were calculated with a script from the assumptions listed in the document.
+- Assisted in drafting the **RACI matrix**, validated so every activity has exactly one Accountable owner.
+- The student is responsible for reviewing and adjusting all names, rates, allocations, and cost assumptions.
+
 ## What Was NOT Done by AI
 
 - Final review, editing, and approval of all content was performed by the student.
@@ -34,5 +45,4 @@ Claude (Anthropic AI assistant)
 I reviewed all AI-assisted content for accuracy and relevance before including it in the submitted project document, and I understand I am responsible for the final content of this assignment.
 
 **Name:** David Thai
-**Date:** Sep 24
-
+**Date:** October 4, 2026
