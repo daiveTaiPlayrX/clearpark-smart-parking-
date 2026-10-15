@@ -34,6 +34,12 @@ Claude (Anthropic AI assistant)
 - Assisted in drafting the **RACI matrix**, validated so every activity has exactly one Accountable owner.
 - The student is responsible for reviewing and adjusting all names, rates, allocations, and cost assumptions.
 
+**Week 6:**
+- Assisted in reviewing the whole project document for inconsistencies between sections (for example the Sprint 1 list, the Gantt chart, the WBS, and the RACI) and drafting the fixes.
+- Assisted in drafting the expanded **SRS** (additional use cases, functional and non-functional requirements, traceability matrix), the **user stories and backlog** (rewritten as user stories with priorities, estimates, and sprint assignments), and the updated **WBS**, **sprint-based timeline and Gantt chart**, **risk register**, **communication plan**, **roles**, **cost plan** (cost by sprint, variance thresholds), and **RACI matrix**.
+- Cost and sprint totals were calculated with a script from the assumptions listed in the document.
+- The student is responsible for reviewing all content, updating the Trello board and screenshots, and confirming that the plan reflects their own decisions.
+
 ## What Was NOT Done by AI
 
 - Final review, editing, and approval of all content was performed by the student.
@@ -45,4 +51,4 @@ Claude (Anthropic AI assistant)
 I reviewed all AI-assisted content for accuracy and relevance before including it in the submitted project document, and I understand I am responsible for the final content of this assignment.
 
 **Name:** David Thai
-**Date:** October 4, 2026
+**Date:** October 10, 2026
