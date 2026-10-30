@@ -51,4 +51,11 @@ Claude (Anthropic AI assistant)
 I reviewed all AI-assisted content for accuracy and relevance before including it in the submitted project document, and I understand I am responsible for the final content of this assignment.
 
 **Name:** David Thai
-**Date:** October 10, 2026
+**Date:** October, 25
+
+**Week 7:**
+- Assisted in drafting the **stakeholder analysis**: the stakeholder register with power and interest scores, the Power-Interest Grid image, and the engagement strategy.
+- Assisted in drafting the **project charter** and **team charter** (one-page PDFs and images), using the numbers and decisions already in the project document.
+- Assisted in updating the communication matrix and stakeholder section so they match the new stakeholder list.
+- Charts and PDFs were generated with scripts from the data in the document.
+- The student is responsible for reviewing the scores, names, working hours, and approval details and changing anything that does not match their own decisions.

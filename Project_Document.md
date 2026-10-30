@@ -3,7 +3,7 @@
 
 **Course:** CIS 4374 — University of Houston  
 **Document Type:** Vision & Scope / Software Requirements Specification / Project Management Plan (Living Document)  
-**Version:** 0.6 (Week 6)  
+**Version:** 0.7 (Week 7)  
 **Author:** David Thai
 
 ---
@@ -14,10 +14,11 @@
 |---|---|---|---|
 | 0.1 | Week 1 | David Thai | Initial draft: Research, Vision & Scope, and SRS draft (15+ use cases) created |
 | 0.2 | Week 2 (Sept 17, 2026) | David Thai | Added Work Breakdown Structure (3+ levels) and draft project timeline with Gantt chart |
-| 0.3 | Week 3 | David Thai | Added product backlog and Sprint 1 plan (Trello board + screenshot) |
+| 0.3 | Week 3 | [Your Name] | Added product backlog and Sprint 1 plan (Trello board + screenshot) |
 | 0.4 | Week 4 | David Thai | Added risk identification (4+ per category), risk register, and communication plan |
 | 0.5 | Week 5 | David Thai | Added roles & resources, bottom-up cost plan with monthly cashflow, and RACI matrix |
 | 0.6 | Week 6 | David Thai | Project-wide update, no new chapters: SRS, user stories and backlog, WBS, timeline and Gantt, sprints, risks, communication plan, roles, cost plan, and RACI brought up to date and checked against each other (see Week 6 Change Log) |
+| 0.7 | Week 7 | David Thai | Added stakeholder analysis (Power-Interest Grid of 12 stakeholders), project charter, and team charter; extended the communication matrix to cover the new stakeholders (see Week 7 Change Log) |
 
 *(Update this table every week per course instructions: bump the version number and note what changed.)*
 
@@ -39,6 +40,20 @@ Week 6 added no new chapters. Every section was reviewed against the others and 
 | 10. Cost Plan | Added labor cost by sprint, cost per story point, and budget variance thresholds. Totals did not change. | Costs needed to line up with the sprint plan, and the cost plan needed rules for when to escalate. |
 | 11. RACI | Added 6 activities (now 24) and a workload check. | The new WBS components and sprint activities needed owners. |
 
+### Week 7 Change Log
+
+Week 7 added two chapters and made the small edits below so the rest of the document stays consistent with them.
+
+| Section | What Changed | Why |
+|---|---|---|
+| 12. Stakeholder Analysis (new) | Scored 12 stakeholders for power and interest, plotted the Power-Interest Grid (Figure 6), and defined an engagement strategy for each quadrant. | Homework item 1: stakeholder analysis using the Power-Interest Grid. |
+| 13. Project Charter and Team Charter (new) | Added one-page charters as images (Figures 7 and 8). PDF and PNG files are also in the repository. | Homework item 2: project charter and team charter. |
+| 2.6 Stakeholders | Added a pointer to Section 12. | The stakeholder list grew from 7 to 12 groups. |
+| 8.5 Stakeholder Communication Matrix | Added 5 rows for the new stakeholders. | Every stakeholder needs a defined way to stay informed. |
+| 14. References | Renumbered from 12 to 14. | Two new chapters were added before it. |
+
+Files added to the repository in Week 7: `Power_Interest_Grid.png`, `Project_Charter.pdf`, `Project_Charter.png`, `Team_Charter.pdf`, and `Team_Charter.png`.
+
 ---
 
 ## Table of Contents
@@ -54,7 +69,9 @@ Week 6 added no new chapters. Every section was reviewed against the others and 
 9. [Roles & Resources](#9-roles--resources)
 10. [Resource & Cost Plan](#10-resource--cost-plan)
 11. [RACI Matrix](#11-raci-matrix)
-12. [References](#12-references)
+12. [Stakeholder Analysis (Power-Interest Grid)](#12-stakeholder-analysis-power-interest-grid)
+13. [Project Charter and Team Charter](#13-project-charter-and-team-charter)
+14. [References](#14-references)
 
 ---
 
@@ -141,6 +158,8 @@ ClearPark is a web and mobile platform that allows drivers to locate, reserve, a
 | Finance and billing personnel | Accurate transaction processing and reconciliation |
 | Mobile application users | Seamless mobile experience |
 | Third-party payment providers | Reliable integration and transaction volume |
+
+The Week 7 stakeholder analysis in Section 12 scores these groups for power and interest and adds five more (executive sponsor, development team, mapping and navigation providers, city legal and compliance office, and the general public).
 
 ### 2.7 Constraints
 
@@ -1103,7 +1122,7 @@ The register contains **19 entries**.
 
 ### 8.5 Stakeholder Communication Matrix
 
-Every stakeholder named in Section 2.6 has a defined way to stay informed.
+Every stakeholder named in Section 2.6 and in the Week 7 analysis (Section 12) has a defined way to stay informed.
 
 | Stakeholder | What they need to know | Method | Frequency | Owner |
 |---|---|---|---|---|
@@ -1114,6 +1133,11 @@ Every stakeholder named in Section 2.6 has a defined way to stay informed.
 | System administrators | Admin tooling, monitoring, deployment, and handover details | Technical syncs; handover guide | Weekly; at release | DevOps/Security engineer |
 | Finance and billing personnel | Budget vs. actual; payment and reconciliation flows | Monthly budget review; payment requirement workshop | Monthly | PM |
 | Third-party payment providers | Integration status, certification, go-live date | Integration checkpoint meeting; email | Every 2 weeks | Payment engineer |
+| Executive sponsor | Progress, budget, top risks, and decisions needed | Steering meeting; weekly status report | Monthly; weekly | PM |
+| Development team members | Priorities, decisions, and schedule changes | Stand-ups, sprint ceremonies, Teams, and Trello | Daily; every 2 weeks | PM |
+| Third-party mapping and navigation providers | API terms, usage forecasts, and outage notices | Email and provider support channel; usage and quota review | Monthly and as needed | Mapping engineer |
+| City legal and compliance office | Privacy and ordinance compliance status; how data is handled | Compliance checkpoint; written review requests | Monthly; before release | DevOps/Security engineer |
+| General public (non-users) | Launch announcement and parking policy changes | City communication channels, arranged through the city transportation department | At launch | PM |
 
 ### 8.6 Meeting Standards, Decisions, and Action Items
 
@@ -1329,7 +1353,102 @@ The PM is accountable for the most activities (8), which fits the role of runnin
 
 ---
 
-## 12. References
+## 12. Stakeholder Analysis (Power-Interest Grid)
+
+*Added in Week 7.*
+
+### 12.1 Method
+
+- **Power** is a stakeholder's ability to approve, fund, block, or change the project. **Interest** is how much the project affects them and how much they care about the outcome.
+- Each stakeholder was scored from 1 to 10 for both, using the project brief and the roles in Sections 2 and 8. A score of **6 or higher counts as high**.
+- Interest is plotted on the horizontal axis and power on the vertical axis. The four quadrants give the engagement approach: **Manage Closely** (high power, high interest), **Keep Satisfied** (high power, lower interest), **Keep Informed** (lower power, high interest), and **Monitor** (lower power, lower interest).
+- The starting point was the seven stakeholders in Section 2.6. Five more were added because the brief says the project depends on third-party services, must follow city ordinances and privacy rules, and is delivered by a team and funded by a sponsor: the executive sponsor, development team, mapping and navigation providers, city legal and compliance office, and the general public.
+
+### 12.2 Stakeholder Register
+
+| ID | Stakeholder | Role and What They Want | Power | Interest | Quadrant | Source |
+|---|---|---|---|---|---|---|
+| S01 | Executive sponsor (WE ARE $oftware ¢orp.) | Funds and authorizes the project; wants on-time, on-budget delivery | 10 | 8 | Manage Closely | New in Week 7 |
+| S02 | Parking facility operators | Primary customers; supply occupancy data and use the dashboard; want better utilization and pricing control | 8 | 10 | Manage Closely | Section 2.6 |
+| S03 | City transportation departments | Co-sponsor; want less congestion and utilization data; set ordinance-related requirements | 9 | 8 | Manage Closely | Section 2.6 |
+| S04 | Development team members | Build and test the platform; need clear priorities and stable requirements | 6 | 10 | Manage Closely | New in Week 7 |
+| S05 | City legal and compliance office | Reviews privacy and ordinance compliance; can block release | 8 | 4 | Keep Satisfied | New in Week 7 |
+| S06 | Third-party payment providers | Control gateway access, certification, and terms; can delay go-live | 7 | 5 | Keep Satisfied | Section 2.6 |
+| S07 | Third-party mapping and navigation providers | Control API access, pricing, and uptime | 6 | 2 | Keep Satisfied | New in Week 7 |
+| S08 | Finance and billing personnel | Need accurate transactions and reconciliation | 5 | 7 | Keep Informed | Section 2.6 |
+| S09 | System administrators | Run and support the platform; need monitoring and handover | 4 | 8 | Keep Informed | Section 2.6 |
+| S10 | Drivers and vehicle owners | End users; individually little power, but their adoption decides success | 4 | 9 | Keep Informed | Section 2.6 |
+| S11 | Mobile application users | Use the mobile app; care about device compatibility and app quality | 3 | 6 | Keep Informed | Section 2.6 |
+| S12 | General public (non-users) | Affected by traffic and parking policy near garages | 2 | 3 | Monitor | New in Week 7 |
+
+### 12.3 Power-Interest Grid
+
+![ClearPark Power-Interest Grid](Power_Interest_Grid.png)
+
+*Figure 6: Power-Interest Grid for the 12 ClearPark stakeholders. Numbers match the IDs in the register above (for example, 02 is S02, the parking facility operators).*
+
+### 12.4 Engagement Strategy
+
+| Quadrant | Stakeholders | Goal | How We Engage | Where in the Plan |
+|---|---|---|---|---|
+| Manage Closely | S01, S02, S03, S04 | Involve them in decisions and keep them aligned | Stakeholder meeting and demo every 2 weeks; monthly steering meeting; weekly status report; daily stand-ups for the team; every decision recorded in the decision log | Sections 8.2, 8.5, 8.6 |
+| Keep Satisfied | S05, S06, S07 | Avoid surprises and make sure they do not block the release | Monthly compliance checkpoint with city legal; integration checkpoint every 2 weeks with the payment provider; vendor onboarding started in the first weeks; monthly usage and quota review with mapping providers | Sections 7 (S-02, T-01, T-03, T-04) and 8.5 |
+| Keep Informed | S08, S09, S10, S11 | Keep them updated and collect feedback | Monthly budget review with finance; technical syncs and a handover guide for administrators; driver and mobile-user feedback sessions every 2 weeks from Sprint 4; release notes | Sections 8.2 and 8.5 |
+| Monitor | S12 | Spend minimal effort and watch for change | Launch announcement through the city transportation department; revisit the scores if complaints or ordinance changes appear | Section 8.5 |
+
+### 12.5 Findings
+
+- **Four groups need close management:** the sponsor, parking operators, city transportation departments, and the development team. Operators and the city are the two outside groups whose approval decides whether the project is accepted, so disagreements with them are the main source of risk P-04 (slow or conflicting stakeholder decisions) and S-01 (scope creep).
+- **Three high-power stakeholders ask for little attention but can block the release:** city legal and compliance, the payment providers, and the mapping providers. Their risks are in T-01, T-03, T-04, and S-02, and their engagement is scheduled early.
+- **Drivers and mobile users have little power individually, but their adoption decides whether ClearPark succeeds.** Feedback sessions start in Sprint 4 so their input can still change the product at low cost.
+- **The scores are judgments and will be reviewed at each sprint retrospective.** For example, city legal's interest should rise near the security audit and UAT (Dec 4 to Dec 11), and the payment provider's interest should rise during Sprints 4 and 5. Either could move to Manage Closely.
+
+---
+
+## 13. Project Charter and Team Charter
+
+*Added in Week 7.*
+
+The **project charter** formally authorizes the project and gives the project manager the authority to use organizational resources. The **team charter** sets how the team works together. Each is a one-page document based on the class templates (the table-style charter and the problem statement, business case, goal, timeline, scope, and team elements). They reuse the numbers from earlier chapters so the document stays consistent. PDF and PNG versions are in the repository root as `Project_Charter.pdf`, `Project_Charter.png`, `Team_Charter.pdf`, and `Team_Charter.png`.
+
+### 13.1 Project Charter
+
+![ClearPark Project Charter](Project_Charter.png)
+
+*Figure 7: ClearPark Project Charter (one page).*
+
+| Charter Section | Taken From |
+|---|---|
+| Business need, goal statement, business case | Sections 1, 2.3, and 2.4 |
+| Scope, out of scope, and deferred items | Section 2.5 and the deferred backlog items in Section 6 |
+| Success criteria | Section 2.8 |
+| Milestones | Section 5.4 |
+| Key risks | Section 7 |
+| Financials and team size | Sections 9 and 10 |
+| Project manager authority and approvals | Sections 8.4 (escalation) and 10.7 (budget variance rules) |
+
+### 13.2 Team Charter
+
+![ClearPark Team Charter](Team_Charter.png)
+
+*Figure 8: ClearPark Team Charter (one page).*
+
+| Charter Section | Taken From |
+|---|---|
+| Team members and roles | Section 9.1 |
+| Communication and conflict resolution | Sections 8.2 and 8.4 |
+| Decision making | Sections 8.4, 10.7, and the RACI matrix in Section 11 |
+| Definition of Done and success measures | Sections 6.1 and 10.7 |
+
+### 13.3 Notes
+
+- The sponsor's name (Morgan Ellis), the core working hours, and the response-time rules are fictional planning assumptions introduced in the charters.
+- The signature lines are left blank. For the course, the charters count as approved when they are submitted in the repository.
+- Both charters are living documents. The team reviews them at each sprint retrospective and updates the version when something changes.
+
+---
+
+## 14. References
 
 - ParkMobile — App Store listing, 2026
 - SpotHero — App Store listing, 2026
@@ -1341,4 +1460,4 @@ The PM is accountable for the most activities (8), which fits the role of runnin
 
 ---
 
-<sub>WE ARE $oftware ¢orp. | ClearPark Project Document | Version 0.6 | CIS 4374, University of Houston</sub>
+<sub>WE ARE $oftware ¢orp. | ClearPark Project Document | Version 0.7 | CIS 4374, University of Houston</sub>
